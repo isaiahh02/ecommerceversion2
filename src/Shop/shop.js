@@ -1,11 +1,13 @@
 import "./shop.css";
+import orange from "../photos/orange.jpeg";
+import silverring from "../photos/silverring.webp";
 function Shop(){
 
     return (
     <section className="wrapper">
        
         <section>
-            <img className="greystripestie" alt="grey stripes tie" src="ecommerce/photos/orange.jpeg" width="100%"/>
+            <img className="greystripestie" alt="grey stripes tie" src={orange} width="100%"/>
             Gray & Beige Stripes Tie
             100% Seta Soie Seide Silk Handtailor
             [$10.99]
@@ -13,7 +15,7 @@ function Shop(){
         </section>
 
         <section>
-            <img className="ring" alt="silver ring" src="ecommerce/photos/silverring.webp" width="100%"/>
+            <img className="ring" alt="silver ring" src={silverring} width="100%"/>
             Silver ring
             Premium 316L Stainless Steel & Rhodium
             [$41.99]
