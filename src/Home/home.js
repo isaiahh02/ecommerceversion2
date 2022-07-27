@@ -3,6 +3,8 @@ import Navbar from '../Navbar/nav.js';
 import './home.css';
 import Contact from '../Contact/contact.js';
 import {Outlet} from "react-router-dom";
+
+
 {/* <div id="item-1">
 <Slider />
 </div> */}
@@ -13,7 +15,7 @@ function Home() {
                 <div id="item-0">
                     <Navbar />
                 </div>
-                <div id="item-3">Logo</div>
+                <div id="item-3"></div>
                 
             </header>
             <main>

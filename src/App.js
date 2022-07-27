@@ -7,6 +7,9 @@ import Navbar from './Navbar/nav';
 import Home from './Home/home';
 import Shop from './Shop/shop';
 import Contact from './Contact/contact';
+import { SocialIcon } from 'react-social-icons';
+ReactDOM.render(<SocialIcon url="https://twitter.com/jaketrent" />, document.body);
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <SocialFollow />
     </div>
   );
 }

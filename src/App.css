@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.instagram {
+  color: black;
+}
