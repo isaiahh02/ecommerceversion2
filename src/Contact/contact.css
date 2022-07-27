@@ -1,11 +1,5 @@
 body {
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(30, 54, 59, 1) 0%,
-    rgba(93, 93, 116, 1) 100%
-  );
+  background: rgb(24, 26, 25);
 }
 .container {
   display: flex !important;
@@ -30,7 +24,7 @@ pre {
   font-size: larger;
 }
 button {
-  background: #0563b4 !important;
+  background: #7f8a94 !important;
 }
 p {
   color: red;

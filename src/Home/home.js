@@ -13,12 +13,14 @@ function Home() {
                 <div id="item-0">
                     <Navbar />
                 </div>
-                <div id="item-2">Footer</div>
                 <div id="item-3">Logo</div>
+                
             </header>
             <main>
                 <Outlet/>
             </main>
+            <footer id="item-2">Designed by Isaiah Foster</footer>
+            
         </div>
     );
 }

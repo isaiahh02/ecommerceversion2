@@ -34,10 +34,10 @@ function Contact() {
         if(!values.email) {
             errors.email = "Email is required!";
         } else if(!regex.test(values.email)) {
-            errors.email = "This is not a valid email format!";
+            errors.email = "This is not an email!";
         }
         if(!values.message) {
-            errors.message = "Message is required!";
+            errors.message = "Are you sure you don't want to type a message?";
         } else if (values.message.length < 4) {
             errors.password = "Feedback must be more than 4 characters";
         }else if (values.message.length > 100) {
@@ -48,11 +48,6 @@ function Contact() {
 
     return (
         <div className="container">
-            {Object.keys(formErrors).length === 0 && isSubmit ? (
-            <div className="ui message success">Submitted!</div>
-            ) : (
-              <pre>{ JSON.stringify(formValues, undefined, 2)}</pre>
-            )}
             <form onSubmit={handleSubmit}>
                 <h1>Reach Out Us</h1>
                 <div className="ui divider"></div>
@@ -78,19 +73,13 @@ function Contact() {
                           onChange={handleChange}
                           />
                     </div>
-                    <p>{ formErrors.email}</p>
-                    <div className="field">
-                        <label>Leave a Message</label>
-                        <input
-                          type="password" 
-                          name="password" 
-                          placeholder="Message" 
-                          value={ formValues.message}
-                          onChange={handleChange}
-                          />
+
+                    <div className="message2">
+                        <label htmlFor="message">Message</label>
+                        <textarea id="message" className="b2"></textarea>
                     </div>
                     <p>{formErrors.message}</p>
-                    <button className="fluid ui button blue">Submit</button>
+                    <button className="button">Submit</button>
                 </div>
             </form>
         </div>

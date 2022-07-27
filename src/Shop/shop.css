@@ -17,13 +17,13 @@
     grid-gap: 1em;
     grid-auto-rows: 430px;
     align-items: center;
-    
 }
 
 .wrapper > section{
     background: rgba(239, 240, 235, 0.867);
     padding:1em;
     box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+    border-radius: 10px;
 }
 
 .wrapper > section:nth-child(odd){
