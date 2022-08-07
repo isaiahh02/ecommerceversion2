@@ -11,9 +11,13 @@ import greyswirls from "../photos/greyswirls.jpeg";
 import bloodred from "../photos/bloodred.jpeg";
 import yellowcircles from "../photos/yellowcircles.jpeg";
 import chain from "../photos/chain.webp";
+import { useEffect } from "react";
 
 
 function Shop(){
+    useEffect(()=>{
+    alert("Isaiah");
+    },[])
 
     return (
     <section className="wrapper">
