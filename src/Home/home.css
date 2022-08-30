@@ -3,7 +3,7 @@
    background-color: #555;
    grid-template-rows: 4rem auto 45px;
    grid-template-columns: 16rem auto;
-   
+   grid-auto-flow: column;
    gap: 3px;
    height: 100%;
    

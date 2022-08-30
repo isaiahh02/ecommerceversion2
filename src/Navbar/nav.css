@@ -36,5 +36,10 @@ body {
     color: #777;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav {
+      background-color: lightblue;
+    }
+  }
 
 
